@@ -66,7 +66,7 @@ h6 {
         transition-delay: 0 !important;
     }
 
-    .more-services .decProduct {
+    .product .decProduct {
         margin-top: 10rem !important;
     }
 }
@@ -533,46 +533,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-    background: #f3f9fd;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.clients .col-lg-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.clients img {
-    width: 50%;
-    filter: grayscale(100);
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 10px 0;
-}
-
-.clients img:hover {
-    filter: none;
-    transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-    .clients img {
-        width: 40%;
-    }
-}
-
-@media (max-width: 575px) {
-    .clients img {
-        width: 30%;
-    }
-}
-
-/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 
@@ -716,99 +676,17 @@ section {
     }
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .icon-box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 1;
-}
-
-.services .icon-box::before {
-    content: "";
-    position: absolute;
-    background: #e1f0fa;
-    right: -60px;
-    top: -40px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    transition: all 0.3s;
-    z-index: -1;
-}
-
-.services .icon-box:hover::before {
-    background: #3498db;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-}
-
-.services .icon {
-    margin: 0 auto 20px auto;
-    padding-top: 10px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #3498db;
-    transition: all 0.3s ease-in-out;
-}
-
-.services .icon i {
-    font-size: 36px;
-    line-height: 1;
-    color: #fff;
-}
-
-.services .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.services .title a {
-    color: #111;
-}
-
-.services .description {
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 0;
-}
-
-.services .icon-box:hover .title a,
-.services .icon-box:hover .description {
-    color: #fff;
-}
-
-.services .icon-box:hover .icon {
-    background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-    color: #3498db;
-}
 
 /*--------------------------------------------------------------
-# More Services
+# Product
 --------------------------------------------------------------*/
-.more-services {
+.product {
     padding-top: 20px;
     padding-bottom: 150px;
     background-color: rgb(0 169 155 / 9%);
 }
 
-.more-services .card {
+.product .card {
     border: 0;
     padding: 160px 20px 20px 20px;
     position: relative;
@@ -818,7 +696,7 @@ section {
     background-position: center center;
 }
 
-.more-services .card-body {
+.product .card-body {
     position: absolute;
     z-index: 10;
     background: rgba(255, 255, 255, 0.9);
@@ -831,21 +709,21 @@ section {
     top: 90%;
 }
 
-.more-services .card-title {
+.product .card-title {
     font-weight: 700;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.more-services .card-title a {
+.product .card-title a {
     color: #222222;
 }
 
-.more-services .card-text {
+.product .card-text {
     color: #5e5e5e;
 }
 
-.more-services .read-more a {
+.product .read-more a {
     color: #777777;
     text-transform: uppercase;
     font-weight: 600;
@@ -853,63 +731,25 @@ section {
     transition: 0.4s;
 }
 
-.more-services a:hover {
+.product a:hover {
     text-decoration: underline;
     color: #000;
 }
 
 
 
-/* .more-services .card:hover .card-body {
+/* .product .card:hover .card-body {
   background: #3498db;
 } */
 
-/* .more-services .card:hover .read-more a,
-.more-services .card:hover .card-title,
-.more-services .card:hover .card-title a,
-.more-services .card:hover .card-text {
+/* .product .card:hover .read-more a,
+.product .card:hover .card-title,
+.product .card:hover .card-title a,
+.product .card:hover .card-text {
   color: #fff;
 } */
 
 
-
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .icon-box {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background: #f6f6f6;
-    transition: ease-in-out 0.3s;
-}
-
-.features .icon-box i {
-    font-size: 32px;
-    padding-right: 10px;
-    line-height: 1;
-}
-
-.features .icon-box h3 {
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-size: 16px;
-}
-
-.features .icon-box h3 a {
-    color: #222222;
-    transition: ease-in-out 0.3s;
-}
-
-.features .icon-box h3 a:hover {
-    color: #3498db;
-}
-
-.features .icon-box:hover {
-    background: #eef7fc;
-}
 
 /*--------------------------------------------------------------
 # Testimonials

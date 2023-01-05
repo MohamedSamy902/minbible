@@ -66,7 +66,7 @@ h6 {
     transition-delay: 0 !important;
   }
 
-  .more-services .decProduct {
+  .product .decProduct {
     margin-top: 10rem !important;
   }
 }
@@ -533,45 +533,6 @@ section {
   margin: 15px 0 0 0;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  background: #f3f9fd;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.clients .col-lg-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.clients img {
-  width: 50%;
-  filter: grayscale(100);
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 10px 0;
-}
-
-.clients img:hover {
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    width: 40%;
-  }
-}
-
-@media (max-width: 575px) {
-  .clients img {
-    width: 30%;
-  }
-}
 
 /*--------------------------------------------------------------
 # About Us
@@ -807,13 +768,13 @@ section {
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
-.more-services {
+.product {
   padding-top: 20px;
   padding-bottom: 150px;
   background-color: rgb(0 169 155 / 9%);
 }
 
-.more-services .card {
+.product .card {
   border: 0;
   padding: 160px 20px 20px 20px;
   position: relative;
@@ -823,7 +784,7 @@ section {
   background-position: center center;
 }
 
-.more-services .card-body {
+.product .card-body {
   position: absolute;
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
@@ -836,21 +797,21 @@ section {
   top: 90%;
 }
 
-.more-services .card-title {
+.product .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.more-services .card-title a {
+.product .card-title a {
   color: #222222;
 }
 
-.more-services .card-text {
+.product .card-text {
   color: #5e5e5e;
 }
 
-.more-services .read-more a {
+.product .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
@@ -858,19 +819,19 @@ section {
   transition: 0.4s;
 }
 
-.more-services a:hover {
+.product a:hover {
   text-decoration: underline;
   color: #000;
 }
 
-/* .more-services .card:hover .card-body {
+/* .product .card:hover .card-body {
   background: #3498db;
 } */
 
-/* .more-services .card:hover .read-more a,
-.more-services .card:hover .card-title,
-.more-services .card:hover .card-title a,
-.more-services .card:hover .card-text {
+/* .product .card:hover .read-more a,
+.product .card:hover .card-title,
+.product .card:hover .card-title a,
+.product .card:hover .card-text {
   color: #fff;
 } */
 
